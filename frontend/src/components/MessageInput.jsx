@@ -70,7 +70,7 @@ const MessageInput = () => {
 
   const startVoiceTyping = () => {
     resetTranscript();
-    SpeechRecognition.startListening({ continuous: true });
+    SpeechRecognition.startListening({ continuous: false });
   };
 
   const stopVoiceTyping = () => {
