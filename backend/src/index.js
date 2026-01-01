@@ -16,7 +16,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(cookieParser());    
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
 app.use(cors({
-    origin: 'https://realtime-chat-application-seven-tau.vercel.app/',
+    origin: 'https://realtime-chat-application-seven-tau.vercel.app',
     credentials: true,  
 }));
 
